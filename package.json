@@ -1,0 +1,22 @@
+{
+  "name": "pdi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^9.0.0",
+    "langchain": "^0.0.118",
+    "redis": "^4.6.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.4",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
