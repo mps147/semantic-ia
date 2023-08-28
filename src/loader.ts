@@ -29,9 +29,7 @@ async function load() {
 
   await RedisVectorStore.fromDocuments(
     spplitedDocuments,
-    new GoogleVertexAIEmbeddings({
-      endpoint: "AIzaSyBNTx0Qqxu4Pc0XfA4cft3QbD9z7Okz4ks",
-    }),
+    new GoogleVertexAIEmbeddings(),
     { indexName: "pdi-embeddings", redisClient: redis, keyPrefix: "pdi:" }
   );
 
